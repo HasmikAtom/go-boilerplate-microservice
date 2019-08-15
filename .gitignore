@@ -1,0 +1,44 @@
+/lib
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log
+!Logs
+!logs.*
+
+# Dependency directory
+node_modules
+*/node_modules
+
+vscode
+*/.vscode
+
+.DS_Store
+*/.DS_Store
+.monitor
+
+##Mutable-local
+.pins.json
+.config.json
+*/.config.json
+.consul
+
+*/package-lock.json
+
+# Redis
+dump.rdb
+*/dump.rdb
+
+dashboard/public/*
+.config.json
+
+*.lock
+
+# services not to be pushed
+replication-controller
+test
+
+# vscode files
+.vscode
