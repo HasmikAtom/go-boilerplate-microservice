@@ -1,0 +1,43 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Go-Swagger boilerplate microservice",
+    "version": "1.0.0",
+    "description": "This a boilerplate Go microservice  with Swagger implementation created for Mutable but can also be used independently"
+  },
+  "tags": [
+    {
+      "name": "mutable",
+      "description": "Mutable-specific endpoints"
+    },
+    {
+      "name": "api",
+      "description": "Microservice api endpoints"
+    }
+  ],
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "mutable"
+        ],
+        "summary": "Endpoint for checking the service health",
+        "description": "",
+        "operationId": "healthCheck",
+        "consumes":[],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Service is healthy"
+          }
+        }
+      }
+    }
+  }
+}

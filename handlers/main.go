@@ -2,13 +2,10 @@ package handlers
 
 import (
 	"net/http"
-	"strings"
 )
 
-// Health Endpoint
+// Health Check Endpoint
 func Health(w http.ResponseWriter, r *http.Request) {
-	message := r.URL.Path
-	message = strings.TrimPrefix(message, "/")
-	message = "Hello " + message
+	message := "Service is healthy"
 	w.Write([]byte(message))
 }
