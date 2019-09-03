@@ -56,7 +56,7 @@ Mutable app checks the service's health through the ``/health`` endpoint.
 
 ## References
 
-- [GoDoc]([https://godoc.org/](https://godoc.org/))
+- [GoDoc](https://godoc.org/)
 - [Swagger 2.0](https://swagger.io/docs/specification/2-0/basic-structure/) 
 - [Swagger UI](https://swagger.io/tools/swagger-ui/)
 - [gorilla/mux](https://github.com/gorilla/mux)
