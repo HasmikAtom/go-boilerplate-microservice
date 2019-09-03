@@ -8,7 +8,7 @@ import (
 	"github.com/hasmikatom/go-boilerplate-service/handlers"
 )
 
-// Routes
+// SetRoutes
 func SetRoutes(router *mux.Router) {
 
 	router.HandleFunc("/", redirectToSwaggerUI)
