@@ -1,6 +1,6 @@
 package database
 
-import meta "github.com/HasmikAtom/meta-go"
+import meta "github.com/mutable/meta-go"
 
 func getConfig() config {
 	var conf config

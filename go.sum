@@ -137,6 +137,8 @@ github.com/mailru/easyjson v0.0.0-20190614124828-94de47d64c63/go.mod h1:C1wdFJiN
 github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
 github.com/mitchellh/mapstructure v1.1.2 h1:fmNYVwqnSfB9mZU6OS2O6GsXM+wcskZDuKQzvN1EDeE=
 github.com/mitchellh/mapstructure v1.1.2/go.mod h1:FVVH3fgwuzCH5S8UJGiWEs2h04kUh9fWfEaFds41c1Y=
+github.com/mutable/meta-go v0.0.0-20190912114022-4895ec290a3e h1:8Low8Nfu/KfhdEm/Yvle328Nfm2yNyB3tmL8j8IQX1w=
+github.com/mutable/meta-go v0.0.0-20190912114022-4895ec290a3e/go.mod h1:v/ongGY/qC4xdZUTJ911hzTsljxyobtg2v8KhABeKhM=
 github.com/mutable/stack v0.0.0-20190823220014-21fb3d4be986 h1:tbptX1lSecFdarVPa74hiq3pGzZn0k3e+2qGD5X8YEw=
 github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
 github.com/oklog/ulid v1.3.1/go.mod h1:CirwcVhetQ6Lv90oh/F+FBtV6XMibvdAFo93nm5qn4U=
