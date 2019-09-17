@@ -2,7 +2,7 @@ package database
 
 import meta "github.com/HasmikAtom/meta-go"
 
-func getDatabaseConfig() config {
+func getConfig() config {
 	var conf config
 	if err := meta.UnmarshalConfig(&conf); err != nil {
 		panic(err)
@@ -11,4 +11,4 @@ func getDatabaseConfig() config {
 }
 
 // Conf stores the database configuration
-var Conf = getDatabaseConfig()
+var Conf = getConfig()
